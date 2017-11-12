@@ -32,3 +32,43 @@ $python manage.py createsuperuser
 $python manage.py runserver
 $gunicorn mysite.wsgi
 
+https://github.com/yuttana76/mysite.git
+
+# Creating an application
+1. Create application 
+$ python manage.py startapp <app_name>
+
+2. Modify setting.py by add
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    '<app_name>',
+]
+
+2 Create model in
+<app_name>/models.py
+
+3 Create tables for models in your database
+    -Django know that we have some changes in our model
+    $ python manage.py makemigrations <app_name>
+
+    -have to apply to our database
+    $ python manage.py migrate <app_name>
+
+
+# Django admin
+
+To add, edit and delete the posts we've just modeled, we will use Django admin.
+
+Let's open the blog/admin.py file and replace its contents with this:
+
+blog/admin.py
+from django.contrib import admin
+from .models import Post
+
+admin.site.register(Post)
