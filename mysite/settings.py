@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 #print "base dir path", BASE_DIR
-print os.path.join(os.path.dirname(BASE_DIR), "mysite", "static",  "templates")
+#print os.path.join(os.path.dirname(BASE_DIR), "mysite", "static",  "templates")
  
 TEMPLATE_DIRS = (
     os.path.join(os.path.dirname(BASE_DIR), "mysite", "static",  "templates"),
