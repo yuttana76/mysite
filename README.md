@@ -1,4 +1,4 @@
-# Link
+# Useful Link
 https://pythonspot.com/en/django-tutorial-building-a-note-taking-app/
 
 https://www.fullstackpython.com/blog/python-3-django-gunicorn-linux-mint-17.html
@@ -7,6 +7,8 @@ https://www.fullstackpython.com/blog/python-3-django-gunicorn-linux-mint-17.html
 # Django Getting started
 
 https://pythonspot.com/en/tag/django/
+
+https://tutorial.djangogirls.org/en/django_models/
 
 # Django database model
 python manage.py syncdb
