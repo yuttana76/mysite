@@ -129,4 +129,4 @@ TEMPLATE_DIRS = (
     #'/home/frankbox/python/djangoapp/mysite/static/templates',
 )
 
-ALLOWED_HOSTS = ['127.0.0.1', 'mysite.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'yuttana76.pythonanywhere.com']
