@@ -128,3 +128,5 @@ TEMPLATE_DIRS = (
     os.path.join(os.path.dirname(BASE_DIR), "mysite", "static",  "templates"),
     #'/home/frankbox/python/djangoapp/mysite/static/templates',
 )
+
+ALLOWED_HOSTS = ['127.0.0.1', 'mysite.pythonanywhere.com']
